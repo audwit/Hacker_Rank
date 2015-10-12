@@ -1,28 +1,18 @@
 package hacker_Ranking;
 
+
 import java.io.File;
 import java.util.Scanner;
 
 
 
-public class Diagonal_Difference
+public class Diagonal_Difference_submitted_code
 {
 	public static void main(String[] args)
 	{
-		File file = null;
-		Scanner in = null;
+		Scanner in = new Scanner(System.in);
+        int n=0,a,diagonalsumlr=0,diagonalsumrl=0,result=0;
 		int[][] matrix;
-		
-		try{
-			file = new File("diagonalDifference.txt");
-			in = new Scanner(file);
-		}
-		catch(Exception ex){
-			//ex.printStackTrace();
-		}
-		
-		int n=0,a,diagonalsumlr=0,diagonalsumrl=0,result=0;
-		
 		
 		
 		//if(in.hasNextInt())
