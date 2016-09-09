@@ -26,7 +26,7 @@ public class DeleteNode
 		{
 			head = temp.next;
 		}
-		// Delete (n-1)th index
+		// Delete positionth index
 		else if(position <= size-1)
 		{
 			for(int i=0; i<position-1 ;i++ )
